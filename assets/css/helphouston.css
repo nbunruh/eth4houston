@@ -145,6 +145,10 @@ a {
     outline: none;
     background: rgba(255, 255, 255, 0.1); }
 
+i.fa-heart {
+  padding-right: 20px;
+}
+
 .content-section {
   padding-top: 150px;
   padding-bottom: 150px; }
