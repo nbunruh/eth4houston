@@ -31,8 +31,8 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h1 class="brand-heading">Help Houston</h1>
-              <p class="intro-text">Donate Ether to help those affected by Hurricane Harvey.</p>
+              <h1 class="brand-heading">EtherHouston</h1>
+              <p class="intro-text">Tog<span style="color:red">ETHER</span> we are stronger.</p>
               <a href="#about" class="btn btn-circle js-scroll-trigger">
                 <i class="fa fa-angle-double-down animated"></i>
               </a>
@@ -50,6 +50,7 @@
             <h2>About the Initiative</h2>
             <p>As many are aware, Hurricane Harvey recently swept through parts of the southern United States, leaving a trail of destruction in its path. Thousands of Texans have been displaced from their homes and lost everything.</p> 
             <p>Our goal is to provide a means through which members of the Ethereum community can donate Ether to help volunteers and organizations on the ground with disaster relief.</p>
+            <p>Proceeds will be equally distributed between <a href="http://www.nfl.com/news/story/0ap3000000837347/article/jj-watt-raises-18m-in-hurricane-harvey-relief" target="_blank">Houston Texans' defensive end JJ Watt's relief efforts</a>, <a href="https://ghcf.org/" target="_blank">the Greater Houston Community Foundation</a>, <a href="http://ghbcc.com/" target="_blank">and the Greater Houston Black Chamber.</a></p>
           </div>
           <div id="quickFacts" class="col-lg-8 mx-auto">
             <h2 style="padding-top:100px">Quick Facts</h2>
@@ -71,8 +72,32 @@
       <div class="container">
         <div class="col-lg-8 mx-auto">
           <h2>Donate Now</h2>
-          <p>You can donate to the relief efforts by clicking the button below.</p>
-          <a href="#" class="btn btn-default btn-lg">Donate</a>
+          <p>Please send all donations to the Ethereum contract address below.</p> 
+          <p>For every one ETH that contributors donate, they will receive 500 EtherHouston (HOU) coins. These tokens do not hold value--they are just our way of saying thank you and sharing the Ethereum technology with the world.</p>
+          <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Click Here</button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+            
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Contract Address</h4>
+                </div>
+                <div class="modal-body">
+                  <div class="form-group">
+                      <input class="form-control" id="txtCoinbase" value="0x222fb2ad9d6fa3e9844dd13fd7b5e3ebb810b9b4">
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+              
+            </div>
+          </div>
         </div>
       </div>
     </section>
