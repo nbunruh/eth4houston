@@ -106,6 +106,7 @@ a {
   color: white;
   background: url("../img/houston-bg.jpg") no-repeat bottom center scroll;
   background-color: black;
+  overflow-x: none;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
