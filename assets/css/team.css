@@ -83,7 +83,25 @@ background-position: 70%;
 }
 
 .team-header {
-    letter-spacing: 2px;
+  letter-spacing: 2px;
+}
+
+.memberName {
+  margin-top: 3%;
+}
+
+.members {
+ margin-left: 6.8rem;
+ width: 50%;
+ border-radius:50% 50% 50% 50%;
+}
+
+.list-inline {
+  margin-left: 5%;
+}
+
+#niko-btn {
+  margin-left: 20%;
 }
 
 #mainNav {
@@ -168,8 +186,17 @@ p {
     .list-inline-item {
         display: block;
         margin-top: 10px;
-        margin-left: 33%;
+        margin-left: 31%;
     }
+
+    .members {
+      margin-left: 5.8rem;
+    }
+
+    #niko-btn {
+      margin-left: 4%;
+    }
+
 }
 
 /* Add some shadows to create a card effect */
