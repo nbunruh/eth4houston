@@ -1,6 +1,13 @@
+html {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 body {
     background-color: black;
     font-family: Lora, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 h1, h2 {
@@ -172,6 +179,39 @@ p {
     }
 }
 
+@media (max-width: 750px) {
+        html, body {
+          width: 100%;
+          overflow-x: hidden;
+        }
+
+        .members {
+          margin-left: 5rem;
+        }
+
+        .memberName {
+          margin-left: 3rem;
+        }
+
+        .title {
+          margin-left: 3rem;
+        }
+
+        .list-inline-item {
+          display: block;
+          margin-top: 10px;
+          margin-left: 30%;
+        }
+
+        .navbar-toggler {
+            margin-left: 50%;
+        }
+
+        #niko-btn {
+          margin-left: 4%;
+        }
+    }
+
 
 @media (max-width: 650px) {
     .jumbotron {
@@ -189,8 +229,20 @@ p {
         margin-left: 31%;
     }
 
+    .navbar-toggler {
+      margin-left: 24%;
+    }
+
     .members {
       margin-left: 5.8rem;
+    }
+
+    .memberName {
+      margin-left: 0.5rem;
+    }
+
+    .title {
+      margin-left: 0.5rem;
     }
 
     #niko-btn {
