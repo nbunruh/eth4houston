@@ -10,8 +10,12 @@ body {
     overflow-x: hidden;
 }
 
-h1, h2 {
+h1, h2, h4 {
     font-family: Cabin, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    margin: 0 0 35px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
     text-align: center;
     color: white;
 }
@@ -87,14 +91,29 @@ a:hover {
 background-image: url("../img/eth-header.png");
 background-size: cover;
 background-position: 70%;
+
+}
+
+.btn-info {
+  position: relative;
+  top: 50%;
+  left: 46%;
+  -webkit-transform: translate (-50%, -50%);
+  -moz-transform: translate (-50%, -50%);
+  -ms-transform: translate (-50%, -50%);
+  transform: translate (-50%, -50%);
+  padding: 10px 10px;
+  margin-top: 4%;
 }
 
 .team-header {
   letter-spacing: 2px;
+  margin-left: 1%;
 }
 
 .memberName {
   margin-top: 3%;
+  font-size: 24px;
 }
 
 .members {
@@ -109,6 +128,11 @@ background-position: 70%;
 
 #niko-btn {
   margin-left: 20%;
+}
+
+.modal-title {
+  text-align: center;
+  color: black;
 }
 
 #mainNav {
@@ -170,6 +194,10 @@ p {
     color: white;
 }
 
+p.modal-text {
+  color: black;
+}
+
 /* Display the columns below each other instead of side by side on small screens */
 @media (max-width: 1024px) {
     .list-inline-item {
@@ -183,6 +211,14 @@ p {
         html, body {
           width: 100%;
           overflow-x: hidden;
+        }
+
+        .jumbotron {
+          padding-top: 15%;
+        }
+
+        .btn-info {
+          left: 41%;
         }
 
         .members {
@@ -213,9 +249,14 @@ p {
     }
 
 
-@media (max-width: 650px) {
+@media (max-width: 667px) {
     .jumbotron {
         margin-top: 16%;
+        padding-bottom: 20%;
+    }
+
+    .btn-info {
+      left: 32%;
     }
 
     .column {
