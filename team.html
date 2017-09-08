@@ -47,7 +47,32 @@
 
   <div class="jumbotron">
      <h1 class="team-header">THE TEAM</h1>
-  </div>
+     <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"><i class="fa fa-heart" aria-hidden="true"></i>Support</button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog">
+          
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Contract Address</h4>
+              </div>
+              <div class="modal-body">
+                <p class="modal-text">If you'd like to help us with operating costs to keep the site running or just want to make a personal donation to the team, you can send Ether to the following address:</p>
+                <p><img src="https://chart.googleapis.com/chart?cht=qr&amp;chs=200x200&amp;chl=0x71f178fc21b83b7299046993a8ea497a62cf7ee5" id="imgQr" class="chart_img"></p>
+                <div class="form-group">
+                    <input class="form-control" value="0x71f178fc21b83b7299046993a8ea497a62cf7ee5">
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
   <br>
 
   <div class="row">
